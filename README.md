@@ -18,8 +18,8 @@ __B4:__ Call API by PostMan: http://localhost:3000/api/product
 | price: Number       |
 |---------------------|
 | getAllProduct(): Array            | 
-| getProductById(): Object          | 
-| updateProductById(): Object       | 
-| deleteProductById(): Boolean      | 
+| getProductById(id: Uuid): Object          | 
+| updateProductById(id: Uuid): Object       | 
+| deleteProductById(id: Uuid): Boolean      | 
 
 
